@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="sv">
+    <head>
+        <title>Bright Hotel</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/mystyles.css" rel="stylesheet">
+    </head>    
+    <body>
+        <div class="header">
+            <a href="hem.html" class="logo">BrightHotell</a>
+            <div class="topnav" id="myTopnav">
+                <a href="hem.html">Hem</a>
+                <a href="boka.html">Boka</a>
+                <a href="kontakt.html" class="active">Kontakt</a>
+                <a href="hitta.html">Hitta oss</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+        <img src="bilder/Fresh_Maret_2000x1400%20(1).jpg" alt="hotel background">
+        <h1>Så här kan du ta kontakt med oss!</h1>
+        <ul>
+            <li><h5>Email: BrightHotel@BrightHotel.com</h5></li>
+            <li><h5>Telefonnummer: 073 - 123 45 67</h5></li>
+            <li>Address: Ljusa Hotellgatan 17, 123 45 Malmö</li>
+        </ul>
+
+        <footer>
+            <p>Address: Ljusa Hotellgatan 17, 123 45 Malmö Tel 073 123 45 67 email: BrightHotell@BrightHotell.com</p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+    </body>
+</html>
